@@ -1,0 +1,5 @@
+[sqlfluff]
+dialect = bigquery
+large_file_skip_byte_limit = 0 
+max_line_length = 0
+exclude_rules = RF01,RF02,AL04,AM06,ST01,ST02,ST03,ST04,ST05,ST06,ST07,ST08,ST09,ST10,ST11,CP02,

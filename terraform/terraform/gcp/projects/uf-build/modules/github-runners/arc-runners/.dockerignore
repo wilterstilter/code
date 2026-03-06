@@ -1,0 +1,30 @@
+# Terraform files
+*.tf
+*.tfvars
+*.tfstate*
+.terraform/
+terraform.tfplan
+
+# Documentation
+*.md
+README*
+
+# Git
+.git/
+.gitignore
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log 

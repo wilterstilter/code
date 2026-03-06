@@ -1,0 +1,16 @@
+resource "google_project_iam_audit_config" "bigquery_audit_config" {
+  project = var.project_id
+  service = "bigquery.googleapis.com"
+
+  audit_log_config {
+    log_type = "ADMIN_READ"
+  }
+
+  audit_log_config {
+    log_type = "DATA_READ"
+  }
+
+  audit_log_config {
+    log_type = "DATA_WRITE"
+  }
+}
